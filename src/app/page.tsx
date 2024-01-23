@@ -9,7 +9,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-row justify-end w-full h-full space-x-2 -translate-y-10 p-2">
-      <a href="https://github.com/incognitotgt">
+      <a href="https://github.com/incognitotgt" aria-label="Github">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
