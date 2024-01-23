@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  feather-icons:
+    specifier: ^4.29.1
+    version: 4.29.1
   next:
     specifier: 14.1.0
     version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -19,6 +22,9 @@ devDependencies:
   "@catppuccin/tailwindcss":
     specifier: ^0.1.6
     version: 0.1.6(tailwindcss@3.4.1)
+  "@types/feather-icons":
+    specifier: ^4.29.4
+    version: 4.29.4
   "@types/node":
     specifier: ^20
     version: 20.11.5
@@ -405,6 +411,13 @@ packages:
     dependencies:
       tslib: 2.6.2
     dev: false
+
+  /@types/feather-icons@4.29.4:
+    resolution:
+      {
+        integrity: sha512-cvwI455PWx/gJ33XDTIZOdauRy+XCxZggkOT/tAQYZLdySPFATD4RnDC9mxOnCIEaK9kwPm3zZigkAsMkhXb5w==,
+      }
+    dev: true
 
   /@types/json5@0.0.29:
     resolution:
@@ -940,6 +953,13 @@ packages:
       fsevents: 2.3.3
     dev: true
 
+  /classnames@2.5.1:
+    resolution:
+      {
+        integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==,
+      }
+    dev: false
+
   /client-only@0.0.1:
     resolution:
       {
@@ -978,6 +998,14 @@ packages:
         integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==,
       }
     dev: true
+
+  /core-js@3.35.1:
+    resolution:
+      {
+        integrity: sha512-IgdsbxNyMskrTFxa9lWHyMwAJU5gXOPP+1yO+K59d50VLVAIDAbs7gIv705KzALModfK3ZrSZTPNpC0PQgIZuw==,
+      }
+    requiresBuild: true
+    dev: false
 
   /cross-spawn@7.0.3:
     resolution:
@@ -1650,6 +1678,16 @@ packages:
     dependencies:
       reusify: 1.0.4
     dev: true
+
+  /feather-icons@4.29.1:
+    resolution:
+      {
+        integrity: sha512-P1we61haGTds6lKWe6CCVPsNULb8tHr1y6S9gXEpU+lNR1Ja7GdV0A1l2hTNmzXv+0Stix/3YMWMAn7n1Qtd6A==,
+      }
+    dependencies:
+      classnames: 2.5.1
+      core-js: 3.35.1
+    dev: false
 
   /file-entry-cache@6.0.1:
     resolution:
