@@ -10,8 +10,8 @@ export default function Home() {
       <div className="absolute justify-center left-1/2 -translate-x-1/2 translate-y-4 divide-solid divide-y divide-ctp-surface0 leading-relaxed">
         <div className="text-3xl text-ctp-text font-bold space-y-1">hello!</div>
         <div className="text text-ctp-text space-y-2">
-          I'm a 13 year old developer that focuses on ReactJS and SolidJS. When
-          I'm not coding, I'm either touching grass, or at school.
+          I&apos;m a 13 year old developer that focuses on ReactJS and SolidJS. When
+          I&apos;m not coding, I&apos;m either touching grass, or at school.
           <div className="text-2xl text-ctp-text font-bold">Projects</div>
           <ul className="list-disc">
             <li>
@@ -23,13 +23,13 @@ export default function Home() {
               cloaking.
             </li>
             <li>
-              Interstellar - One of the more popular proxy sites I've
+              Interstellar - One of the more popular proxy sites I&apos;ve
               contributed to
             </li>
             <li>Xentabs2 - A tabbed proxy, with the look and feel of Arc</li>
           </ul>
           <div className="text-2xl text-ctp-text font-bold">
-            Devteams I'm in
+            Devteams I&apos;m in
           </div>
           <ul className="list-disc">
             <li>Interstellar - member</li>
@@ -46,7 +46,7 @@ export default function Home() {
             <li>Tailwind CSS</li>
           </ul>
           <div className="text-2xl text-ctp-text font-bold">
-            Things I'm learning
+            Things I&apos;m learning
           </div>
           <ul className="list-disc">
             <li>NextJS</li>
