@@ -38,6 +38,7 @@ export default function Home() {
           <ul className="list-disc translate-x-5">
             <li>Yes, I&apos;m actually 13 - my birthday&apos;s in October 2010</li>
             <li>This site has all 100s in Lighthouse (desktop) - see <a aria-label="Lighthouse Link" href="https://pagespeed.web.dev/analysis/https-incognitotgt-me/oso0ynf9vy?form_factor=desktop">here</a></li>
+            
           </ul>
           <div className="text-2xl text-ctp-text font-bold">
             Things I&apos;ve contributed to
