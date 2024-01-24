@@ -38,14 +38,10 @@ export default function Home() {
               Yes, I&apos;m actually 13 - my birthday&apos;s in October 2010
             </li>
             <li>
-              This site has all 100s in Lighthouse (desktop) - see{" "}
-              <a
-                aria-label="Lighthouse Link"
-                className="text-ctp-sky hover:underline"
-                href="https://pagespeed.web.dev/analysis/https-incognitotgt-me/oso0ynf9vy?form_factor=desktop"
-              >
-                here
-              </a>
+              This site has all 100s in Lighthouse (desktop)
+            </li>
+            <li>
+              Github Copilot autocomplete suggested that I&apos;m a furry 4 times while writing this line.
             </li>
           </ul>
           <div className="text-2xl text-ctp-text font-bold">
