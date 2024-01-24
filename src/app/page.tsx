@@ -41,7 +41,7 @@ export default function Home() {
               This site has all 100s in Lighthouse (desktop) - see{" "}
               <a
                 aria-label="Lighthouse Link"
-                className="text-ctp-text hover:text-ctp-sky"
+                className="text-ctp-sky hover:underline"
                 href="https://pagespeed.web.dev/analysis/https-incognitotgt-me/oso0ynf9vy?form_factor=desktop"
               >
                 here
