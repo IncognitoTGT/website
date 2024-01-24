@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="icon" href="/tgt.png" sizes="any" />
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-ctp-base`}>{children}</body>
     </html>
   );
 }
