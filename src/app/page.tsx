@@ -3,8 +3,8 @@ export default function Home() {
   return (
     <main className="min-h-screen flex-col items-center justify-between p-5 bg-ctp-base bg-scroll">
       <div className="flex flex-row justify-start w-full h-full space-x-2">
-        <Image src="/tgt.png" alt="logo" className="" width={50} height={50} />
-        <div className="text-4xl text-ctp-sky font-semibold translate-y-2">
+        <Image src="/tgt.png" alt="logo" className="rounded-full" width={50} height={50} />
+        <div className="text-4xl text-ctp-sky font-semibold translate-y-1">
           tgt
         </div>
       </div>
