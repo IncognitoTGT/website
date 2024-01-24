@@ -32,7 +32,7 @@ export default function Home() {
           I&apos;m a 13 year old developer that focuses on ReactJS and SolidJS.
           This site is my portfolio, and I&apos;ll be updating it as I learn
           more. I made this site with NextJS, TailwindCSS, and TypeScript.
-          <div className="text-xl text-ctp-sky font-bold">Random things</div>
+          <div className="text-xl text-ctp-text font-bold">Random things</div>
           <ul className="list-disc translate-x-5">
             <li>
               Yes, I&apos;m actually 13 - my birthday&apos;s in October 2010
@@ -44,7 +44,7 @@ export default function Home() {
               Github Copilot autocomplete suggested that I&apos;m a furry 4 times while writing this line.
             </li>
           </ul>
-          <div className="text-xl text-ctp-sky font-bold">
+          <div className="text-xl text-ctp-text font-bold">
             Things I&apos;ve contributed to
           </div>
           <ul className="list-disc translate-x-5">
@@ -62,7 +62,7 @@ export default function Home() {
             </li>
             <li>Xentabs2 - A tabbed proxy, with the look and feel of Arc</li>
           </ul>
-          <div className="text-xl text-ctp-sky font-bold">
+          <div className="text-xl text-ctp-text font-bold">
             Devteams I&apos;m in
           </div>
           <ul className="list-disc translate-x-5">
@@ -70,7 +70,7 @@ export default function Home() {
             <li>z1g Project - Owner</li>
             <li>Nebula/Xentabs2 - member (not NebulaWEB)</li>
           </ul>
-          <div className="text-xl text-ctp-sky font-bold">
+          <div className="text-xl text-ctp-text font-bold">
             Languages, Libraries, and Frameworks I know:
           </div>
           <ul className="list-disc translate-x-5">
@@ -79,7 +79,7 @@ export default function Home() {
             <li>ReactJS</li>
             <li>Tailwind CSS</li>
           </ul>
-          <div className="text-xl text-ctp-sky font-bold">
+          <div className="text-xl text-ctp-text font-bold">
             Things I&apos;m learning
           </div>
           <ul className="list-disc translate-x-5">
