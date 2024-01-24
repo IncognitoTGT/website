@@ -19,8 +19,7 @@ export default function Home() {
         <div className="text-3xl text-ctp-text font-bold space-y-1">hi!</div>
         <div className="text text-ctp-text space-y-2">
           I&apos;m a 13 year old developer that focuses on ReactJS and SolidJS.
-          This site is my portfolio, and I&apos;ll be updating it as I learn
-          more. I made this site with NextJS, TailwindCSS, and TypeScript. I&apos;m really good at React and TailwindCSS.
+          I&apos;m really good at React and TailwindCSS, and you can contact me if you&apos;re interested in working with me.
           <div className="text-xl text-ctp-text font-bold">Random things</div>
           <ul className="list-disc translate-x-5">
             <li>
@@ -76,6 +75,7 @@ export default function Home() {
             <li>SolidJS</li>
           </ul>
         </div>
+        <div className="text-ctp-text space-y-1 p-5 -translate-x-10">I made this site with NextJS, React, and TailwindCSS</div>
       </div>
     </main>
   );
