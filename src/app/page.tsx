@@ -27,7 +27,7 @@ export default function Home() {
               Yes, I&apos;m actually 13 - my birthday&apos;s in October 2010
             </li>
             <li>
-              This site has all 100s in Lighthouse (desktop), and I don&apos;t get why most other sites aren&apos;t.
+              This site has all 100s in Lighthouse, and I don&apos;t get why most other sites aren&apos;t.
             </li>
             <li>
               Github Copilot autocomplete suggested that I&apos;m a furry 4 times while writing this line.
