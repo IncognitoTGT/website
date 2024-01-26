@@ -4,14 +4,29 @@ export default function Home() {
   return (
     <main className="min-h-screen flex-col items-center justify-between p-5 mx-auto overflow-y-auto">
       <div className="flex flex-row justify-start w-full h-full space-x-2">
-        <Image src="/tgt.png" alt="logo" className="rounded-full" width={50} height={50} />
+        <Image
+          src="/tgt.png"
+          alt="logo"
+          className="rounded-full"
+          width={50}
+          height={50}
+        />
         <div className="text-4xl text-ctp-sky font-semibold translate-y-1">
           tgt
         </div>
       </div>
       <div className="flex flex-row justify-end w-full h-full space-x-5 -translate-y-10 p-2 text-ctp-sky">
-        <Link className="hover:underline" href="/contact" aria-label="Contact">Contact</Link>
-        <a className="hover:underline" href="https://github.com/incognitotgt" aria-label="Github">
+        <Link className="hover:underline" href="/blog" aria-label="Blog">
+          Blog
+        </Link>
+        <Link className="hover:underline" href="/contact" aria-label="Contact">
+          Contact
+        </Link>
+        <a
+          className="hover:underline"
+          href="https://github.com/incognitotgt"
+          aria-label="Github"
+        >
           Github
         </a>
       </div>
@@ -19,17 +34,21 @@ export default function Home() {
         <div className="text-3xl text-ctp-text font-bold space-y-1">hi!</div>
         <div className="text text-ctp-text space-y-2">
           I&apos;m a 13 year old developer that focuses on ReactJS and SolidJS.
-          I&apos;m really good at React and TailwindCSS, and you can contact me if you&apos;re interested in working with me.
+          I&apos;m really good at React and TailwindCSS, and you can contact me
+          if you&apos;re interested in working with me.
           <div className="text-xl text-ctp-text font-bold">Random things</div>
           <ul className="list-disc translate-x-5">
             <li>
-              Yes, I&apos;m actually 13 - my birthday&apos;s in October 2010
+              Yes, I&apos;m actually 13 - my birthday&apos;s in October 2010,
+              and I&apos;in 7th grade.
             </li>
             <li>
-              This site has all 100s in Lighthouse, and I don&apos;t get why most other sites aren&apos;t.
+              This site has all 100s in Lighthouse, and I don&apos;t get why
+              most other sites aren&apos;t.
             </li>
             <li>
-              Github Copilot autocomplete suggested that I&apos;m a furry 4 times while writing this line.
+              Github Copilot autocomplete suggested that I&apos;m a furry 4
+              times while writing this line.
             </li>
           </ul>
           <div className="text-xl text-ctp-text font-bold">
@@ -75,7 +94,9 @@ export default function Home() {
             <li>SolidJS</li>
           </ul>
         </div>
-        <div className="text-ctp-text space-y-1 p-5 -translate-x-10">I made this site with NextJS, React, and TailwindCSS</div>
+        <div className="text-ctp-text space-y-1 p-5 -translate-x-10">
+          I made this site with NextJS, React, and TailwindCSS
+        </div>
       </div>
     </main>
   );
