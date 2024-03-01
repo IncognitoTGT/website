@@ -11,7 +11,6 @@ export default function Contact() {
 						<li>Email: tgt@incognitotgt.me</li>
 						<li>Discord: tg.t</li>
 						<li>GitHub: incognitotgt</li>
-						<li>I&apos;m based in Baltimore, MD</li>
 					</ul>
 					I&apos;m very willing to work with you on a project! If there&apos;s
 					anything you want me to work on, just contact me and I might be
