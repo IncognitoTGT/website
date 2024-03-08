@@ -28,7 +28,7 @@ export default function Home() {
 					</div>
 					<ul className="list-disc translate-x-5">
 						<li>
-							Ephermal - A web proxy with a sleek modern UI, and with features
+							AnyWeb - A web proxy with a sleek modern UI, and with features
 							such as userscripts and userstyles.
 						</li>
 						<li>
@@ -40,13 +40,14 @@ export default function Home() {
 							contributed to
 						</li>
 						<li>Stardust - An open source Kasm alternative in the works.</li>
+						<li>AnyCode - A service for serverless functions, and server like deployments, like Vercel or Render</li>
 					</ul>
 					<div className="text-xl text-ctp-text font-bold">
 						Devteams I&apos;m in
 					</div>
 					<ul className="list-disc translate-x-5">
 						<li>Interstellar - member</li>
-						<li>z1g Project - Owner</li>
+						<li>AnyVM - Member</li>
 						<li>Spaceness - Owner</li>
 					</ul>
 					<div className="text-xl text-ctp-text font-bold">
