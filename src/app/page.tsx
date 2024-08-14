@@ -1,73 +1,102 @@
+import { SeparatorVertical } from "lucide-react";
+import Image from "next/image";
 export default function Home() {
+	const projects = [
+		{
+			name: "Ephemeral",
+			description: "A web proxy",
+			link: "z1g-project/ephemeral",
+		},
+		{
+			name: "Interstellar",
+			description: "One of the more popular proxy sites I've contributed to",
+			link: "useinterstellar",
+		},
+		{
+			name: "Stardust",
+			description: "isolated, disposable workspaces",
+			link: "spaceness/stardust",
+		},
+	];
+	const buttons = [
+		{
+			alt: "incognitotgt",
+			href: "https://incognitotgt.me",
+			src: "/button.png",
+		},
+		{
+			alt: "arc browser",
+			href: "https://arc.net",
+			src: "/buttons/arc.gif",
+		},
+	];
 	return (
-		<main className="min-h-screen flex-col items-center justify-between p-5 mx-auto overflow-y-auto">
+		<main className="flex flex-col items-center justify-between gap-2 text-md">
 			<div className="flex justify-center items-center flex-col">
-				<div className="text-3xl text-ctp-text font-bold space-y-1 text-left">
-					hi!
-				</div>
-				<div className="text text-ctp-text space-y-2">
-					I&apos;m a 13 year old developer that focuses on ReactJS. Don&apos;t
-					have much to say other than that...
-					<div className="text-xl text-ctp-text font-bold">Random things</div>
+				<div className="text-ctp-text">
+					im a 13 year old typescript developer, who&apos;s also learning swift
+					<h1 className="text-lg font-semibold text-ctp-subtext0">
+						facts about me
+					</h1>
 					<ul className="list-disc translate-x-5">
-						<li>
-							Yes, I&apos;m actually 13 - my birthday&apos;s in October 2010,
-							and I&apos;m in 7th grade.
-						</li>
-						<li>
-							This site has all 100s in Lighthouse, and I don&apos;t get why
-							most other sites aren&apos;t.
-						</li>
-						<li>
-							Github Copilot autocomplete suggested that I&apos;m a furry 4
-							times while writing this line.
-						</li>
+						<li>im in 8th grade</li>
+						<li>i started coding december 2023</li>
 					</ul>
-					<div className="text-xl text-ctp-text font-bold">
-						Things I&apos;ve contributed to
-					</div>
+					<h1 className="text-lg font-semibold text-ctp-subtext0">
+						couple things i have worked on
+					</h1>
 					<ul className="list-disc translate-x-5">
-						<li>
-							Ephermal - A web proxy with a sleek modern UI, and with features
-							such as userscripts and userstyles.
-						</li>
-						<li>
-							Nebula - A proxy with a sleek UI, with themes, and automatic
-							cloaking.
-						</li>
-						<li>
-							Interstellar - One of the more popular proxy sites I&apos;ve
-							contributed to
-						</li>
-						<li>Stardust - An open source Kasm alternative in the works.</li>
+						{projects.map((project) => (
+							<li key={project.name}>
+								<a
+									href={`https://github.com/${project.link}`}
+									className="text-ctp-blue font-bold underline active:text-ctp-red"
+								>
+									{project.name}
+								</a>
+								<div className="text-sm">{project.description}</div>
+							</li>
+						))}
 					</ul>
-					<div className="text-xl text-ctp-text font-bold">
-						Devteams I&apos;m in
-					</div>
-					<ul className="list-disc translate-x-5">
-						<li>Interstellar - member</li>
-						<li>z1g Project - Owner</li>
-						<li>Spaceness - Owner</li>
-					</ul>
-					<div className="text-xl text-ctp-text font-bold">
-						Languages, Libraries, and Frameworks I know:
-					</div>
+					<h1 className="text-lg font-semibold text-ctp-subtext0">
+						stuff i know
+					</h1>
 					<ul className="list-disc translate-x-5">
 						<li>JavaScript</li>
 						<li>TypeScript</li>
 						<li>ReactJS</li>
 						<li>NextJS</li>
 						<li>Tailwind CSS</li>
+						<li>Swift (kind of)</li>
 					</ul>
-					<div className="text-xl text-ctp-text font-bold">
+					<h1 className="text-lg text-ctp-subtext0 font-semibold">
 						Things I&apos;m learning
-					</div>
+					</h1>
 					<ul className="list-disc translate-x-5">
-						<li>SolidJS</li>
+						<li>SwiftUI</li>
 					</ul>
-				</div>
-				<div className="text-ctp-text space-y-1 p-5 -translate-x-10">
-					I made this site with NextJS, React, and TailwindCSS
+					<hr className="border-ctp-surface0 pt-4" />
+					<section className="flex flex-col gap-2">
+						<p>my array of buttons...</p>
+						<div className="flex gap-2 flex-wrap">
+							{buttons.map((button) => (
+								<a
+									href={button.href}
+									key={button.href}
+									style={{ imageRendering: "pixelated" }}
+									className="hover:scale-105 duration-200"
+								>
+									<Image
+										src={button.src}
+										alt={button.alt}
+										className="h-[46.5px] w-[132px]"
+										height={31}
+										width={88}
+									/>
+								</a>
+							))}
+						</div>
+					</section>
 				</div>
 			</div>
 		</main>
