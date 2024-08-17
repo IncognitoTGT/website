@@ -1,7 +1,21 @@
-import { SeparatorVertical } from "lucide-react";
 import Image from "next/image";
 export default function Home() {
-	const projects = [
+	const projects: {
+		name: string;
+		description: string;
+		link: string;
+	}[] = [
+		{
+			name: "Stardust",
+			description: "isolated, disposable workspaces",
+			link: "spaceness/stardust",
+		},
+		{
+			name: "schoology-frontend",
+			description:
+				"alternative frontend for schoology that i work on sometimes",
+			link: "incognitotgt/schoology-frontend",
+		},
 		{
 			name: "Ephemeral",
 			description: "A web proxy",
@@ -11,11 +25,6 @@ export default function Home() {
 			name: "Interstellar",
 			description: "One of the more popular proxy sites I've contributed to",
 			link: "useinterstellar",
-		},
-		{
-			name: "Stardust",
-			description: "isolated, disposable workspaces",
-			link: "spaceness/stardust",
 		},
 	];
 	const buttons = [
@@ -29,6 +38,11 @@ export default function Home() {
 			href: "https://arc.net",
 			src: "/buttons/arc.gif",
 		},
+		{
+			alt: "bomberfish",
+			href: "https://bomberfish.ca",
+			src: "https://bomberfish.ca/buttons/button.gif",
+		},
 	];
 	return (
 		<main className="flex flex-col items-center justify-between gap-2 text-md">
@@ -41,6 +55,7 @@ export default function Home() {
 					<ul className="list-disc translate-x-5">
 						<li>im in 8th grade</li>
 						<li>i started coding december 2023</li>
+						<li>chronic catppuccin mocha mauve addict</li>
 					</ul>
 					<h1 className="text-lg font-semibold text-ctp-subtext0">
 						couple things i have worked on
@@ -89,12 +104,20 @@ export default function Home() {
 									<Image
 										src={button.src}
 										alt={button.alt}
-										className="h-[46.5px] w-[132px]"
 										height={31}
 										width={88}
 									/>
 								</a>
 							))}
+							<iframe
+								src="//incr.easrng.net/badge?key=incognitotgt"
+								style={{
+									background: "url(//incr.easrng.net/bg.gif)",
+								}}
+								title="increment badge"
+								width="88"
+								height="31"
+							/>
 						</div>
 					</section>
 				</div>
