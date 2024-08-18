@@ -43,6 +43,11 @@ export default function Home() {
 			href: "https://bomberfish.ca",
 			src: "https://bomberfish.ca/buttons/button.gif",
 		},
+		{
+			alt: "kilo",
+			href: "https://kkilo.me",
+			src: "https://kkilo.me/buttons/kilo.gif",
+		},
 	];
 	return (
 		<main className="flex flex-col items-center justify-between gap-2 text-md">
@@ -93,7 +98,7 @@ export default function Home() {
 					<hr className="border-ctp-surface0 pt-4" />
 					<section className="flex flex-col gap-2">
 						<p>my array of buttons...</p>
-						<div className="flex gap-2 flex-wrap">
+						<div className="flex flex-wrap max-w-[440px]">
 							{buttons.map((button) => (
 								<a
 									href={button.href}
@@ -117,6 +122,7 @@ export default function Home() {
 								title="increment badge"
 								width="88"
 								height="31"
+								className="hover:scale-105 duration-200"
 							/>
 						</div>
 					</section>
