@@ -34,11 +34,6 @@ export default function Home() {
 			src: "/button.png",
 		},
 		{
-			alt: "arc browser",
-			href: "https://arc.net",
-			src: "/buttons/arc.gif",
-		},
-		{
 			alt: "bomberfish",
 			href: "https://bomberfish.ca",
 			src: "https://bomberfish.ca/buttons/button.gif",
@@ -48,12 +43,22 @@ export default function Home() {
 			href: "https://kkilo.me",
 			src: "https://kkilo.me/buttons/kilo.gif",
 		},
+		{
+			alt: "Arc Browser",
+			href: "https://arc.net",
+			src: "/buttons/arc.gif",
+		},
+		{
+			alt: "GNU AGPL license",
+			href: "https://www.gnu.org/licenses/agpl-3.0.html",
+			src: "/buttons/agpl.webp",
+		},
 	];
 	return (
 		<main className="flex flex-col items-center justify-between gap-2 text-md">
 			<div className="flex justify-center items-center flex-col">
 				<div className="text-ctp-text">
-					im a 13 year old typescript developer, who&apos;s also learning swift
+					im a 13 year old developer
 					<h1 className="text-lg font-semibold text-ctp-subtext0">
 						facts about me
 					</h1>
@@ -70,7 +75,7 @@ export default function Home() {
 							<li key={project.name}>
 								<a
 									href={`https://github.com/${project.link}`}
-									className="text-ctp-blue font-bold underline active:text-ctp-red"
+									className="text-ctp-blue font-bold active:text-ctp-red hover:text-ctp-sky duration-150"
 								>
 									{project.name}
 								</a>
@@ -81,7 +86,7 @@ export default function Home() {
 					<h1 className="text-lg font-semibold text-ctp-subtext0">
 						stuff i know
 					</h1>
-					<ul className="list-disc translate-x-5">
+					<ul className="list-disc list-inside">
 						<li>JavaScript</li>
 						<li>TypeScript</li>
 						<li>ReactJS</li>
@@ -92,12 +97,12 @@ export default function Home() {
 					<h1 className="text-lg text-ctp-subtext0 font-semibold">
 						Things I&apos;m learning
 					</h1>
-					<ul className="list-disc translate-x-5">
+					<ul className="list-disc list-inside">
 						<li>SwiftUI</li>
+						<li>Rust</li>
 					</ul>
 					<hr className="border-ctp-surface0 pt-4" />
 					<section className="flex flex-col gap-2">
-						<p>my array of buttons...</p>
 						<div className="flex flex-wrap max-w-[440px]">
 							{buttons.map((button) => (
 								<a
