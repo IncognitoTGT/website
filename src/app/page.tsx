@@ -53,6 +53,11 @@ export default function Home() {
 			href: "https://www.gnu.org/licenses/agpl-3.0.html",
 			src: "/buttons/agpl.webp",
 		},
+		{
+			alt: "zramctl",
+			href: "https://zram.sh",
+			src: "https://github.com/zramctl/zramctl/blob/main/src/components/buttons/zramctl.png?raw=true",
+		},
 	];
 	return (
 		<main className="flex flex-col items-center justify-between gap-2 text-md">
@@ -103,7 +108,7 @@ export default function Home() {
 					</ul>
 					<hr className="border-ctp-surface0 pt-4" />
 					<section className="flex flex-col gap-2">
-						<div className="flex flex-wrap max-w-[440px]">
+						<div className="grid grid-cols-5 grid-rows-2 gap-2 justify-center items-center">
 							{buttons.map((button) => (
 								<a
 									href={button.href}
