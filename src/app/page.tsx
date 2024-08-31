@@ -68,6 +68,7 @@ export default function Home() {
 						facts about me
 					</h1>
 					<ul className="list-disc translate-x-5">
+						<li>religious sunni muslim</li>
 						<li>im in 8th grade</li>
 						<li>i started coding december 2023</li>
 						<li>chronic catppuccin mocha mauve addict</li>
