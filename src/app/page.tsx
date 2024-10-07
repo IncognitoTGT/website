@@ -63,7 +63,7 @@ export default function Home() {
 		<main className="flex flex-col items-center justify-between gap-2 text-md">
 			<div className="flex justify-center items-center flex-col">
 				<div className="text-ctp-text">
-					im a 13 year old developer
+					im a 14 year old developer
 					<h1 className="text-lg font-semibold text-ctp-subtext0">
 						facts about me
 					</h1>
